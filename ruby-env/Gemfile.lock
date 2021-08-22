@@ -1,0 +1,79 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    backports (3.21.0)
+    diff-lcs (1.4.4)
+    dotenv (2.7.6)
+    fileutils (1.5.0)
+    io-wait (0.1.0)
+    mini_portile2 (2.6.1)
+    multi_json (1.15.0)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    net-http (0.1.1)
+      net-protocol
+      uri
+    net-protocol (0.1.1)
+      io-wait
+      timeout
+    nokogiri (1.12.3)
+      mini_portile2 (~> 2.6.1)
+      racc (~> 1.4)
+    nokogiri (1.12.3-x86_64-linux)
+      racc (~> 1.4)
+    open-uri (0.1.0)
+    racc (1.5.2)
+    rack (2.0.9)
+    rack-protection (2.0.8.1)
+      rack
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.2)
+    ruby2_keywords (0.0.5)
+    sinatra (2.0.8.1)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.8.1)
+      tilt (~> 2.0)
+    sinatra-contrib (2.0.8.1)
+      backports (>= 2.8.2)
+      multi_json
+      mustermann (~> 1.0)
+      rack-protection (= 2.0.8.1)
+      sinatra (= 2.0.8.1)
+      tilt (~> 2.0)
+    sinatra-reloader (1.0)
+      sinatra-contrib
+    tilt (2.0.10)
+    timeout (0.1.1)
+    uri (0.10.1)
+    video_player (1.0.0)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  dotenv
+  fileutils
+  net-http
+  nokogiri
+  open-uri
+  rack (~> 2.0.1)
+  rspec
+  sinatra
+  sinatra-reloader
+  video_player
+
+BUNDLED WITH
+   2.2.26
