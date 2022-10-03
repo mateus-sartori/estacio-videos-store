@@ -7,7 +7,7 @@ module ScrapStacio
     i = 1
     j = 0
     sessao = ["PG0085", "PG0090"]
-    real_sessao = ["Fundamentos-segurança", "Ainda n sei"]
+    real_sessao = ["Fundamentos-segurança", "Segurança"]
     sessao.each do |sessao|
       begin
         while !File.directory?("/home/mateus/Pos-graduacao/#{sessao}")
